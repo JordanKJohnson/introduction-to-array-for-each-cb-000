@@ -1,5 +1,3 @@
-var evens = [0, 2, 4, 6, 8, 10];
-
 
 doToElementsInArray(array, callback){
   array.forEach(callback);
@@ -10,8 +8,8 @@ changeCompletely(element, index, array){
 }
 
 var animals = ["dog", "cat", "squirrel"];
- 
+
 doToElementsInArray(animals, changeCompletely);
- 
+
 // log out animals -- pretty cool, right?
 console.log(animals);
